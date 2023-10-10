@@ -4,20 +4,13 @@
 }
 
 body {
- background: rgb(43, 43, 104);
+
+ background-image: linear-gradient(to left bottom, #8b8ffd, #7c83f3, #6c77e8, #5c6bde, #4a5fd4, #3f56cf, #334cc9, #2543c4, #2139c2, #202ebf, #2020bb, #230db7);
+ width: 100px;
+ height: 700px;
 }
 
-.container {
- width: 100vw;
- height: 50px;
- background: rgb(68, 70, 196);
 
-}
-
-.box {
- display: inline-block;
- vertical-align: middle;
-}
 
 .btn {
  width: 700px;
@@ -26,9 +19,10 @@ body {
 }
 
 button {
- background: rgb(68, 70, 196);
+ background: none;
  padding: 5px;
  margin: 10px;
  border: none;
  color: rgb(132, 132, 235);
+ cursor: pointer;
 }
