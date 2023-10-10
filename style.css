@@ -1,0 +1,30 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background: rgb(43, 43, 104);
+}
+
+.container {
+ width: 100vw;
+ height: 50px;
+ background: rgb(68, 70, 196);
+
+}
+
+.box {
+ opacity: .6;
+}
+
+.btn {
+ border: solid lightblue;
+ width: 100vw;
+ 
+}
+
+h1 {
+ display: inline-block;
+ color: black;
+}
