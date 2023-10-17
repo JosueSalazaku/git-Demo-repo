@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <title>Document</title>
+</head>
+<body>
+
+ <div class="links">
+  <a href="/flexbox.html" class="flex">flexbox</a> 
+  
+ <a href="/grid.html" class="gridy">grid</a>
+
+ <style>
+
+body {
+   background: black;
+  }
+
+.links{
+   font-size: large;
+   text-decoration: none;
+   text-align: center;
+   margin: auto;
+   width: 50%;
+   padding: 300px;
+   display: flex
+  }
+
+.flex {
+  margin: auto;
+  width: 20%;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
+  background: white;
+  color: rgb(101, 253, 0);
+  }
+
+.gridy {
+   margin: auto;
+   width: 20%;
+   border: 2px solid rgb(255, 255, 255);
+   padding: 10px;
+   background: blue;
+   color: rgb(255, 0, 0);
+  }
+
+  .gridy:hover{
+   background: red;
+   border: none;
+  }
+  .flex:hover {
+    background: rgb(101, 253, 0);
+    border: none;
+  }
+  
+  
+ </style>
+</body>
+</html>

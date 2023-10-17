@@ -1,0 +1,117 @@
+body {
+ margin: 0;
+ font-family: Poppins, sans-serif;
+ text-align: center;
+ background-color: #27005D;
+}
+
+.content {
+ padding: 10px;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+ body {
+     background-color: #9400FF;
+ }
+ body h1 {
+  color: white;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+  
+ }
+}
+
+@media (min-width: 1024px) {
+ body {
+     background-color: #AED2FF;
+ }
+ body h1 {
+  color: red;
+ }
+}
+
+.display {
+ display: none;
+ color: white;
+}
+
+
+#small {
+ background-color: rgb(107, 136, 204);
+}
+
+#medium {
+ background-color: rgb(255, 242, 0);
+}
+
+#large {
+ background-color: red;
+}
+
+
+/* 
+@media (max-width: 479px) {
+ #small {
+     display: block;
+ }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+ #medium {
+     display: block;
+ }
+}
+
+@media (min-width: 1024px) {
+ #large {
+     display: block;
+ }
+}
+
+*/
+
+/*text content on the small displays*/
+@media (max-width: 479px) {
+ .display {
+     display: block;
+     width: 100%;
+ }
+}
+
+/*text content on the medium displays*/
+@media (min-width: 480px) and (max-width: 1023px) {
+ .display {
+     display: inline-block;
+     
+ }
+ #small {
+     width: 66.66%;
+     float: left;
+ }
+ #medium {
+     width: 33.33%;
+     float: right;
+ }
+ #large {
+     width: 100%;
+     float: left;
+
+ }
+}
+
+/*text content on for bigger displays*/
+@media (min-width: 1024px) {
+ .display {
+     display: inline-block;
+     width: 30%;
+ }
+}
+
+
